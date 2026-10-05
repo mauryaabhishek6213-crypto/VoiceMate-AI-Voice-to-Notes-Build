@@ -1,0 +1,9 @@
+__pycache__/
+.web/
+.states/
+.pytest_cache/
+.git/
+.venv/
+site-packages/
+node_modules/
+assets/xy/

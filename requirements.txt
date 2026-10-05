@@ -1,0 +1,7 @@
+
+reflex[db]==0.9.12
+openai
+fastapi
+starlette
+httpx
+pytest

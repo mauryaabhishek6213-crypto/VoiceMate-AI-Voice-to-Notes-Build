@@ -1,0 +1,401 @@
+{
+  "version": 4,
+  "app_title": "VoiceMate AI Web App Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-f5c130c2",
+      "name": "Home and notes",
+      "route": "/",
+      "item_ref": {
+        "index": 0,
+        "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+      },
+      "blocks": [
+        {
+          "id": "home-nav",
+          "type": "nav",
+          "label": "Top navigation",
+          "hint": "Home, Notes, Record, Settings",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-hero",
+          "type": "hero",
+          "label": "Welcome and capture",
+          "hint": "App name, greeting, record and new note actions",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-search",
+          "type": "text",
+          "label": "Search notes",
+          "hint": "Search titles and content",
+          "x": 0,
+          "y": 3,
+          "w": 8,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-filters",
+          "type": "form",
+          "label": "Sort and filters",
+          "hint": "Newest, oldest, title, category, favorites",
+          "x": 8,
+          "y": 3,
+          "w": 4,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-notes",
+          "type": "list",
+          "label": "Recent notes",
+          "hint": "Saved note cards with timestamps and quick actions",
+          "x": 0,
+          "y": 4,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-2f7aa271",
+      "name": "Note editor",
+      "route": "/note",
+      "item_ref": {
+        "index": 0,
+        "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+      },
+      "blocks": [
+        {
+          "id": "note-nav",
+          "type": "nav",
+          "label": "Top navigation",
+          "hint": "Back to notes",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "note-editor",
+          "type": "form",
+          "label": "Title, category and transcript",
+          "hint": "Editable fields with save feedback",
+          "x": 0,
+          "y": 1,
+          "w": 8,
+          "h": 4,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "note-actions",
+          "type": "text",
+          "label": "Note actions",
+          "hint": "Save, favorite, AI, copy, share, export, delete",
+          "x": 8,
+          "y": 1,
+          "w": 4,
+          "h": 3,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "note-results",
+          "type": "list",
+          "label": "Saved AI results",
+          "hint": "Suggestions separate from original content",
+          "x": 0,
+          "y": 5,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 0,
+            "text": "Build a mobile-first notes workspace with a warm indigo-and-cream Material-inspired design, browser-local persistent notes, editable titles and transcripts, categories, favorites, search, sorting, timestamps, confirmation for deletion, and clear save feedback."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-b296f0f7",
+      "name": "Voice capture",
+      "route": "/record",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the voice capture and transcript workflow with English/Hindi selection, browser speech-recognition capability and permission checks, live text where supported, honest start/stop/error states, and editable transcripts before saving; show unsupported controls only when truly available."
+      },
+      "blocks": [
+        {
+          "id": "record-nav",
+          "type": "nav",
+          "label": "Top navigation",
+          "hint": "Back to home",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the voice capture and transcript workflow with English/Hindi selection, browser speech-recognition capability and permission checks, live text where supported, honest start/stop/error states, and editable transcripts before saving; show unsupported controls only when truly available."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "record-status",
+          "type": "text",
+          "label": "Microphone and recording status",
+          "hint": "Capability, permission, language, timer",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the voice capture and transcript workflow with English/Hindi selection, browser speech-recognition capability and permission checks, live text where supported, honest start/stop/error states, and editable transcripts before saving; show unsupported controls only when truly available."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "record-transcript",
+          "type": "form",
+          "label": "Live transcript",
+          "hint": "Editable recognized text",
+          "x": 0,
+          "y": 4,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the voice capture and transcript workflow with English/Hindi selection, browser speech-recognition capability and permission checks, live text where supported, honest start/stop/error states, and editable transcripts before saving; show unsupported controls only when truly available."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "record-controls",
+          "type": "text",
+          "label": "Capture controls",
+          "hint": "Start, supported pause/resume, stop, cancel, save",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the voice capture and transcript workflow with English/Hindi selection, browser speech-recognition capability and permission checks, live text where supported, honest start/stop/error states, and editable transcripts before saving; show unsupported controls only when truly available."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-433cdfbc",
+      "name": "AI assistant",
+      "route": "/assistant",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the AI assistant and a companion Python API with validated note actions (summary, key points, title, tasks, study questions, simplify, translate, ask), a configurable server-side provider, explicit content-sharing disclosure, saved editable results, and useful unavailable/retry states without fabricated output."
+      },
+      "blocks": [
+        {
+          "id": "ai-nav",
+          "type": "nav",
+          "label": "Top navigation",
+          "hint": "Back to selected note",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the AI assistant and a companion Python API with validated note actions (summary, key points, title, tasks, study questions, simplify, translate, ask), a configurable server-side provider, explicit content-sharing disclosure, saved editable results, and useful unavailable/retry states without fabricated output."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ai-actions",
+          "type": "text",
+          "label": "AI actions",
+          "hint": "Summarize, points, title, tasks, questions, rewrite, translate",
+          "x": 0,
+          "y": 1,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the AI assistant and a companion Python API with validated note actions (summary, key points, title, tasks, study questions, simplify, translate, ask), a configurable server-side provider, explicit content-sharing disclosure, saved editable results, and useful unavailable/retry states without fabricated output."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ai-question",
+          "type": "form",
+          "label": "Ask about note",
+          "hint": "Question and language controls",
+          "x": 4,
+          "y": 1,
+          "w": 8,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the AI assistant and a companion Python API with validated note actions (summary, key points, title, tasks, study questions, simplify, translate, ask), a configurable server-side provider, explicit content-sharing disclosure, saved editable results, and useful unavailable/retry states without fabricated output."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ai-results",
+          "type": "text",
+          "label": "Result panel",
+          "hint": "Disclosure, loading, errors, retry, editable result and save",
+          "x": 4,
+          "y": 3,
+          "w": 8,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the AI assistant and a companion Python API with validated note actions (summary, key points, title, tasks, study questions, simplify, translate, ask), a configurable server-side provider, explicit content-sharing disclosure, saved editable results, and useful unavailable/retry states without fabricated output."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-77a3de94",
+      "name": "Import and settings",
+      "route": "/settings",
+      "item_ref": {
+        "index": 3,
+        "text": "Add audio import with format/size validation and honest transcription availability, note text export/copy/share, theme and language settings, privacy/help/clear-data controls, and automated checks for the web app and Python API."
+      },
+      "blocks": [
+        {
+          "id": "settings-nav",
+          "type": "nav",
+          "label": "Top navigation",
+          "hint": "Home, Notes, Record, Settings",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Add audio import with format/size validation and honest transcription availability, note text export/copy/share, theme and language settings, privacy/help/clear-data controls, and automated checks for the web app and Python API."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "settings-preferences",
+          "type": "form",
+          "label": "Preferences",
+          "hint": "Theme, interface language, default transcription language",
+          "x": 0,
+          "y": 1,
+          "w": 6,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Add audio import with format/size validation and honest transcription availability, note text export/copy/share, theme and language settings, privacy/help/clear-data controls, and automated checks for the web app and Python API."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "settings-import",
+          "type": "text",
+          "label": "Audio import",
+          "hint": "Select file, validate and explain transcription requirements",
+          "x": 6,
+          "y": 1,
+          "w": 6,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Add audio import with format/size validation and honest transcription availability, note text export/copy/share, theme and language settings, privacy/help/clear-data controls, and automated checks for the web app and Python API."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "settings-privacy",
+          "type": "text",
+          "label": "Privacy and help",
+          "hint": "Data storage, cloud disclosure, version, support notes",
+          "x": 0,
+          "y": 4,
+          "w": 8,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Add audio import with format/size validation and honest transcription availability, note text export/copy/share, theme and language settings, privacy/help/clear-data controls, and automated checks for the web app and Python API."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "settings-clear",
+          "type": "text",
+          "label": "Clear local data",
+          "hint": "Confirmed deletion",
+          "x": 8,
+          "y": 4,
+          "w": 4,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Add audio import with format/size validation and honest transcription availability, note text export/copy/share, theme and language settings, privacy/help/clear-data controls, and automated checks for the web app and Python API."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

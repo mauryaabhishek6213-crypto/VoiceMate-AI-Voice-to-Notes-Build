@@ -1,0 +1,9 @@
+# Reference values only. Credential slots deliberately empty.
+# Existing server environment remains the source of credentials.
+OPENAI_API_KEY=
+OPENAI_BASE_URL=
+OPENAI_MODEL=gpt-4o-mini
+
+# Local-only default. Public AI POSTs fail closed unless a token is set.
+AI_API_PUBLIC=false
+AI_API_BEARER_TOKEN=
